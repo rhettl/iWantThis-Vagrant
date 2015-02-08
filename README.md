@@ -11,19 +11,19 @@ This will run a VirtualBox/Vagrant machine, use git to download php code for iWa
 
 After VBox and Vagrant are installed, run 
 
-```$ git clone git@github.com:ishowcaseiWantThis-vagrant iWantThis && cd iWantThis/
+`$ git clone git@github.com:ishowcaseiWantThis-vagrant iWantThis && cd iWantThis/`
 
 Then, once in the downloaded directory with the `VagrantFile`, run 
 
-```$ vagrant up
+`$ vagrant up`
 
 To stop run gently
 
-```$ vagrant halt
+`$ vagrant halt`
 
 To SSH in
 
-```$ vagrant ssh
+`$ vagrant ssh`
 
 To view from web direct browser to http://192.168.33.10/
 
